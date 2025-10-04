@@ -1,0 +1,51 @@
+
+
+*  {
+    text-align: center;
+    text-decoration: none;
+}
+
+.taskList {
+    padding: 30px;
+}
+
+.inputGroup {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+button {
+    background: rgba(204, 171, 21, 0.457);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.tasks {
+    padding: 20px;
+}
+
+.tasks .task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.tasks .task .bx {
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.tasks .task span {
+    font-size: 22px;
+}
+body{
+    background-color:rgb(213, 228, 229) ;
+}
